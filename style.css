@@ -1,23 +1,26 @@
-.gallery{
+.gallery {
     display: grid;
     grid-template-columns: auto auto auto;
 }
- .grid-item img {
+
+.grid-item img {
     border: 1px solid orangered;
     width: 100%;
-    cursor:pointer;
-  }
+    cursor: pointer;
+}
 
-img:hover{
+img:hover {
     transform: scale(1.5);
-  }
+}
 
-#text{
+#text {
     height: auto;
     width: auto;
-    background-color:black;
+    background-color: #34a58e;
     text-align: center;
     border: 2px solid greenyellow;
-    color: white;
-   
+    color: #ffffff;
+    font-size: 11.7333px;
+    font-style: normal;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
