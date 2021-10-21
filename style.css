@@ -7,6 +7,9 @@
     border: 1px solid orangered;
     width: 100%;
     cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 img:hover {
@@ -14,13 +17,14 @@ img:hover {
 }
 
 #text {
-    height: auto;
-    width: auto;
-    background-color: #34a58e;
+    
+    background-color: black;
     text-align: center;
-    border: 2px solid greenyellow;
-    color: #ffffff;
-    font-size: 11.7333px;
+    border: 2px solid silver;
+    color:silver;
+    font-weight: bold;
+    font-size: 15px;
     font-style: normal;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
+    padding: 15px;
 }
